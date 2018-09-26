@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">Simpler Moon Phase Widget</string>
+	<string name="display_moon_age">Display moon age</string>
+	<string name="display_phase_name">Display phase name</string>
+	<string name="save">Save</string>
+	<string name="moon_should_display_here">Moon should display here</string>
+	<string name="phase_new">New</string>
+	<string name="phase_full">Full</string>
+	<string name="phase_first_quarter">First quarter</string>
+	<string name="phase_last_quarter">Last quarter</string>
+	<string name="phase_waxing_crescent">Waxing crescent</string>
+	<string name="phase_waxing_gibbous">Waxing gibbous</string>
+	<string name="phase_waning_crescent">Waning crescent</string>
+	<string name="phase_waning_gibbous">Waning gibbous</string>
+	<string name="config_description">Widget is updated automatically every 6 hours. Clicking \"save\" will update now.</string>
+	<string name="location">Location</string>
+	<string name="northern_hemisphere">Northern Hemisphere</string>
+	<string name="southern_hemisphere">Southern Hemisphere</string>
+</resources>

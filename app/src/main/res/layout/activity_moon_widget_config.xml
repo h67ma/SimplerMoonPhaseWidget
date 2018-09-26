@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MoonWidgetConfig"
+	android:orientation="vertical">
+
+	<CheckBox
+		android:id="@+id/checkbox_display_moon_age"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/display_moon_age"/>
+
+	<CheckBox
+		android:id="@+id/checkbox_display_phase_name"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/display_phase_name"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/location"
+		android:layout_marginStart="5dp"
+		android:layout_marginEnd="5dp"/>
+
+	<RadioGroup
+		android:id="@+id/radiogroup_location"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:checkedButton="@id/radio_hemisphere_northern">
+
+		<RadioButton
+			android:id="@+id/radio_hemisphere_northern"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/northern_hemisphere"/>
+
+		<RadioButton
+			android:id="@+id/radio_hemisphere_southern"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/southern_hemisphere"/>
+
+	</RadioGroup>
+
+	<Button
+		android:id="@+id/button_save"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/save"/>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/config_description"
+		android:layout_marginStart="5dp"
+		android:layout_marginEnd="5dp"/>
+
+</LinearLayout>

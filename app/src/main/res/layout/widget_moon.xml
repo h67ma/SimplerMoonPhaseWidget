@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+	<ImageView
+		android:id="@+id/imageview_moon"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:contentDescription="@string/moon_should_display_here"/>
+
+	<TextView
+		android:id="@+id/moon_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignStart="@id/imageview_moon"
+		android:layout_alignTop="@id/imageview_moon"
+		android:layout_alignEnd="@id/imageview_moon"
+		android:layout_alignBottom="@id/imageview_moon"
+		android:layout_margin="1dp"
+		android:gravity="center"
+		android:textColor="#FFFFFF"
+		android:shadowColor="#000000"
+		android:shadowRadius="10"/>
+
+</RelativeLayout>
