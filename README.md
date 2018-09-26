@@ -7,6 +7,6 @@ I guess another reason I made it is just for practise and fun.
 
 So I present to you: an app with one widget and a configuration activity. Widget displays a simple vector graphic (graphics made by me). Configuration activity lets you enable optional displaying of phase name and moon age, and setting location (Northern/Southern Hemisphere).
 
-The whole thing is a whopping 124KB after install.
+The whole thing is a whopping 104KB after install.
 
 **I don't pretend to understand the algorithm for calculating moon age, it's taken from [here](http://conga.oan.es/~alonso/doku.php?id=blog:sun_moon_position#demostration_program_for_java_desktop).**
