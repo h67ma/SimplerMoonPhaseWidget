@@ -25,14 +25,14 @@ public class MoonWidgetProvider extends AppWidgetProvider
 	private static String getPhaseName(Context context, double age)
 	{
 		int resId = R.string.phase_new;
-		if(age < 0.5) resId = R.string.phase_new;
-		else if(age < 6.88) resId = R.string.phase_waxing_crescent;
-		else if(age < 7.88) resId = R.string.phase_first_quarter;
-		else if(age < 14.27) resId = R.string.phase_waxing_gibbous;
-		else if(age < 15.27) resId = R.string.phase_full;
-		else if(age < 21.65) resId = R.string.phase_waning_gibbous;
-		else if(age < 22.65) resId = R.string.phase_last_quarter;
-		else if(age < 29.03) resId = R.string.phase_waning_crescent;
+		if(age < 1.05) resId = R.string.phase_new;
+		else if(age < 6.33) resId = R.string.phase_waxing_crescent;
+		else if(age < 8.44) resId = R.string.phase_first_quarter;
+		else if(age < 13.71) resId = R.string.phase_waxing_gibbous;
+		else if(age < 15.82) resId = R.string.phase_full;
+		else if(age < 21.09) resId = R.string.phase_waning_gibbous;
+		else if(age < 23.20) resId = R.string.phase_last_quarter;
+		else if(age < 28.48) resId = R.string.phase_waning_crescent;
 
 		return context.getResources().getString(resId);
 	}
@@ -103,7 +103,6 @@ public class MoonWidgetProvider extends AppWidgetProvider
 		boolean showPhaseName = prefs.getBoolean(MoonWidgetConfig.CONFIG_PHASE_NAME, false);
 		boolean showMoonAge = prefs.getBoolean(MoonWidgetConfig.CONFIG_MOON_AGE, false);
 		boolean northern = prefs.getBoolean(MoonWidgetConfig.CONFIG_LOCATION_NORTHERN, true);
-
 
 		String widgetText = "";
 

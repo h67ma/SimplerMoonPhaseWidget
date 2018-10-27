@@ -15,7 +15,7 @@ class SunMoonCalculator
 	private static final double RAD_TO_DEG = 180.0 / Math.PI;
 
 	/** Degrees to radians. */
-	static final double DEG_TO_RAD = 1.0 / RAD_TO_DEG;
+	private static final double DEG_TO_RAD = 1.0 / RAD_TO_DEG;
 
 	/** Radians to hours. */
 	private static final double RAD_TO_HOUR = 180.0 / (15.0 * Math.PI);
